@@ -7,6 +7,11 @@ description: 就计划、决策或构想分轮次持续追问澄清，直到没�
      vibe-coding 全流程依赖它做需求追问，设为仅手动调用会让链条当场断裂。
      用户手动入口：直接说「拷问我这个方案」或输入 /grilling。 -->
 
+<!-- 来源：移植自 mattpocock/skills（MIT License, Copyright (c) 2026 Matt Pocock）
+     https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md
+     设计树、可问集（frontier）、分轮次、问题格式均沿用上游。本仓库做了中文化，
+     并改写了探查相关的规则——改动点见仓库 README「来源与许可」。 -->
+
 # 拷问
 
 就计划、决策或构想持续追问，直到达成**共识**。把它映射成一棵**设计树**：每个决策分叉出挂在它下面的子决策。
